@@ -7,7 +7,7 @@
     <div v-else class="artist">
         <div>
             <h1>{{ artist.name }}</h1>
-            <p class="info"><img class="portrait" :src="artist.portraitUrl" :alt="artist.name + 'portrait'">{{ artist.bio }}</p>
+            <p class="info"><img class="portrait" :src="artist.portrait_url" :alt="artist.name + 'portrait'">{{ artist.bio }}</p>
         </div>
         <table class="table">
             <thead>
@@ -49,7 +49,7 @@
                 artist: {
                     name: '',
                     bio: '',
-                    portraitUrl: '',
+                    portrait_url: '',
                     songs: []
                 }
             }
@@ -66,6 +66,7 @@
         float: left;
         margin-right: 10px;
         margin-bottom: 10px;
+        max-width: 200px;
     }
 
 </style>
