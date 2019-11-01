@@ -36,7 +36,10 @@ php artisan key:generate
   ```
  php artisan migrate 
  ```
-(Opcional) Ejecuta los seeders para agregar datos de prueba.
+(Opcional) Ejecuta los seeders para agregar los datos de prueba.
+```
+php artisan db:seed
+```
 
 Paso 4. **Instala las dependencias de Nodejs y compila el frontend**
 ```  
