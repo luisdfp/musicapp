@@ -1,12 +1,12 @@
 import './bootstrap';
-import Vue from 'vue'
+import Vue from 'vue';
+import MusicApp from "./MusicApp";
+import router from './router';
+
 window.Vue = require('vue');
-import MusicApp from "./components/MusicApp";
 
 const app = new Vue({
     el: '#app',
-    components: {
-        MusicApp
-    },
+    router,
     render: h => h(MusicApp)
 });
