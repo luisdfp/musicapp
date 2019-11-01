@@ -11,7 +11,7 @@
     <body>
         <header class="navbar navbar-dark bg-dark shadow">
             <div class="container">
-                <a href="#" class="navbar-brand d-flex">
+                <a href="#/" class="navbar-brand d-flex">
                     <strong>MusicApp</strong>
                 </a>
             </div>
